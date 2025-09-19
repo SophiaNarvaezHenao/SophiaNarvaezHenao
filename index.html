@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sophia - Desarrolladora Full Stack</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+<body>
+    <!-- Partículas de fondo -->
+    <div id="particles-js"></div>
+    <div class="cursor-neon"></div>
+    
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">&lt;Dev/&gt;</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Inicio</a></li>
+                <li><a href="#about" class="nav-link">Sobre Mí</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Proyectos</a></li>
+                <li><a href="#contact" class="nav-link">Contacto</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="greeting">Hola, soy</span>
+                        <span class="name">Sophia Narváez Henao</span>
+                        <span class="role">Desarrolladora Full Stack</span>
+                    </h1>
+                    <p class="hero-description">
+                        Joven desarrolladora apasionada por el codigo backend y amante del arte expresandolo en su desarrollo frontend
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-code"></i>
+                            Ver Proyectos
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fas fa-envelope"></i>
+                            Contáctame
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="\Imagenes\Sophia.jpeg" alt="Sophia" class="profile-image">
+                        <div class="image-glow"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span>Desplázate hacia abajo</span>
+                <div class="scroll-arrow">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Mí -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mí</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>¿Quién soy?</h3>
+                    <p>
+                        Soy una desarrolladora apasionada por la programacion con 2+ años de experiencia, estando siempre en busca de nuevos retos.
+                        En diferentes ocasiones he ganado puestos destacados en maratones de programacion competitiva,
+                        destacandome en la resolucion de problemas complejos haciendo uso de diferentes herramientas de forma eficaz.
+                    </p>
+                    <p>
+                        Mi enfoque se centra en escribir código limpio y eficaz, crear interfaces
+                        intuitivas y esteticas, resolver problemas complejos de manera eficiente.
+                        Disfrutando el trabajo en equipo, aprendiendo nuevas tecnologías y sobre todo
+                        difrutando el proceso.
+                    </p>
+                    
+                </div>
+                <div class="about-image">
+                    <div class="coding-animation">
+                        <div class="code-lines">
+                            <div class="code-line"></div>
+                            <div class="code-line"></div>
+                            <div class="code-line"></div>
+                            <div class="code-line"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="95">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="90">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="82">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="78">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="75">
+                            <i class="devicon-cplusplus-plain colored"></i>
+                            <span>C++</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>idiomas</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="100">
+                            <i class="fa-solid fa-message"></i>
+                            <span>Español</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="80">
+                            <i class="fa-solid fa-message"></i>
+                            <span>Ingles</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="30">
+                            <i class="fa-solid fa-message"></i>
+                            <span>Japones</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Mis Proyectos</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="\Imagenes\grafica.jpg" alt="Proyecto 1">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/DanielOliverosO/Proyecto_IAPES-Frontend" target="_blank" class="project-link">    
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>IAPES</h3>
+                        <p>Plataforma de preparacion para pruebas tipo Saber 11 asistido con IA. (Proyecto de grados en proceso)</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="\Imagenes\IAPES.png" alt="Proyecto 2">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://sophianarvaezhenao.github.io/pagina-IAPES" target="_blank" class="project-link"> 
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/SophiaNarvaezHenao/pagina-IAPES" target="_blank" class="project-link"> 
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Expo IAPES</h3>
+                        <p>Web explicativa de proyecto de grados IAPES.</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="\Imagenes\JavaAvanzado.png" alt="Proyecto 3">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/yeshua19pro/TestRepositoryForLinealAlgebra" target="_blank" class="project-link"> 
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Algebra Lineal</h3>
+                        <p>Proyectos de Java Avanzado</p>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-button">
+                <a href="https://github.com/SophiaNarvaezHenao" class="btn btn-primary" target="_blank">
+                    <i class="fab fa-github"></i>
+                    Ver Todos los Proyectos
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>¿Tienes un proyecto en mente?</h3>
+                    <p>
+                        Estoy siempre abierta a discutir nuevas oportunidades y proyectos interesantes.
+                        No dudes en contactarme si quieres trabajar juntos o simplemente charlar sobre tecnología.
+                    </p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>vins.pi.sunny@gmail.com</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <span>+57 304 4092720</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Antioquia, Colombia</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/SophiaNarvaezHenao" class="social-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="www.linkedin.com/in/sophianh" class="social-link" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:vins.pi.sunny@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Tu Nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Tu Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Asunto" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Tu Mensaje" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Enviar Mensaje
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Sophia Narváez Henao. Todos los derechos reservados.</p>
+            <p>Hecho con <i class="fas fa-heart"></i></p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
